@@ -1,6 +1,3 @@
 language: python
-install: "wget https://github.com/cxuauto/podcast-rss/releases/download/3jia/qingting_linux_amd64"
 script:
-  - chmod +x ./qingting_linux_amd64
-  - bash -x demo.sh
   - bash -x multi.sh
