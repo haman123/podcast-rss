@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-ALBUMID=([0]='144892' [1]='94154' [2]='63048' )
-RSSFILE=([0]='yyjc.xml' [1]='ruixi.xml' [2]='daming.xml')
+ALBUMID=([0]='144892' [1]='94154')
+RSSFILE=([0]='yyjc.xml' [1]='ruixi.xml')
 GRABBER="qingting_linux_amd64"
 
 wget -q https://github.com/cxuauto/podcast-rss/releases/download/3jia/$GRABBER
